@@ -1,0 +1,88 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.422);
+}
+
+header{
+    background-color: rgb(167, 181, 196);
+    border-bottom: 3px solid rgb(235, 203, 198);
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+footer{
+    background-color: rgb(81, 85, 100);
+    border-top: 3px solid rgb(235, 203, 198);
+    text-align: center;
+    padding: 10px;
+}
+
+article{
+    background-color: rgb(141, 170, 182);
+    margin: 0 auto 20px;
+    border: 2px solid rgb(167, 181, 196);
+    padding: 50px;
+    width: 70%;
+    border-radius: 10px;
+}
+
+nav{
+    list-style-type: none;
+}
+
+.nav-bar, .nav-link {
+    display: inline;
+}
+
+#brand-title{
+    margin-right: 20px;
+}
+
+a{
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: tomato;
+}
+
+main{
+    text-align: center;
+}
+
+.form-label{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input, textarea{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+form{
+    border:2px dotted black;
+    width: 40%;
+    margin: 0 auto 20px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#profile-picture{
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 22%;
+    height: auto;
+}
+
+
+
+
